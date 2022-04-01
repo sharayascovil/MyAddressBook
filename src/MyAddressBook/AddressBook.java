@@ -3,6 +3,7 @@ package MyAddressBook;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class AddressBook {
     private String bookName;
     private List<Person> addresses;
@@ -46,4 +47,14 @@ public class AddressBook {
     public String toString() {
         return ("Book \"" + bookName + "\" with " + inputQuantity + "input(s)");
     }
+
+    public static void main(String[] args) {
+      
+    }
 }
+
+
+
+
+
+
